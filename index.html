@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wilver Yena — Analista BI</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="main-nav">
+  <button class="active" onclick="showPage('sobre', this)">Home</button>
+  <button onclick="showPage('habilidades', this)">Summary</button>
+  <button onclick="showPage('proyectos', this)">Experience</button>
+  <button onclick="showPage('contactos', this)">Links</button>
+</nav>
+
+<!-- ══════════════════════
+     PAGE: SOBRE MÍ
+══════════════════════ -->
+<section id="page-sobre" class="page active">
+  <div class="hero-layout">
+
+    <!-- LEFT -->
+    <div class="hero-left">
+      <div class="status-badge anim anim-d1">
+        <span class="status-dot"></span>
+        Open to work
+      </div>
+
+      <h1 class="hero-name anim anim-d2">WILVER<br>YENA</h1>
+      <p class="hero-role anim anim-d2">ANALISTA DE DATOS JR</p>
+
+      <p class="hero-tagline anim anim-d3">
+        Transformo datos complejos en insights accionables que impulsan estrategias de negocios. Especialista en Power BI, SQL y visualización de datos.
+      </p>
+
+      <div class="hero-contacts anim anim-d3">
+        <div class="hero-contact-row">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          wilveryenagarcia@gmail.com
+        </div>
+        <div class="hero-contact-row">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          Santo Domingo, República Dominicana
+        </div>
+        <div class="hero-contact-row">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+          linkedin.com/in/wilver-m-yena-garcia
+        </div>
+      </div>
+
+      <div class="hero-btns anim anim-d4">
+        <button class="btn-primary" onclick="showPage('proyectos', document.querySelectorAll('nav button')[2])">Ver Proyectos</button>
+        <button class="btn-ghost" onclick="showPage('contactos', document.querySelectorAll('nav button')[3])">Contactarme</button>
+      </div>
+    </div>
+    <!-- /hero-left -->
+
+    <!-- RIGHT: CV preview -->
+    <div class="hero-right">
+      <div class="cv-preview-card">
+        <img src="../img/image copy 3.png" alt="CV Wilver García">
+      </div>
+      <a href="../files/Wilber-Garcia-CV.pdf" download class="cv-pill">Download CV ↗</a>
+    </div>
+    <!-- /hero-right -->
+
+  </div>
+  <!-- /hero-layout -->
+</section>
+<!-- /page-sobre -->
+
+<!-- ══════════════════════
+     PAGE: HABILIDADES
+══════════════════════ -->
+<section id="page-habilidades" class="page">
+  <div class="section-layout">
+    <p class="section-eyebrow anim anim-d1">Lo que domino</p>
+    <h2 class="section-title-big anim anim-d2">HABILIDADES &amp;<br><span>HERRAMIENTAS</span></h2>
+
+    <div class="skills-layout">
+      <div class="skills-intro anim anim-d3">
+        <p>Trabajo con un stack completo de herramientas de análisis de datos, desde la extracción y modelado hasta la visualización ejecutiva.</p>
+        <p>Cada proyecto combina rigor técnico con comunicación clara de resultados.</p>
+        <div class="tools-pills">
+          <span class="tool-pill">DAX</span>
+          <span class="tool-pill">Power Query</span>
+          <span class="tool-pill">Pandas</span>
+          <span class="tool-pill">Matplotlib</span>
+          <span class="tool-pill">Seaborn</span>
+          <span class="tool-pill">ggplot2</span>
+          <span class="tool-pill">ETL</span>
+          <span class="tool-pill">Data Modeling</span>
+          <span class="tool-pill">KPI Design</span>
+        </div>
+      </div>
+
+      <div class="skills-bars">
+        <div class="skill-row anim anim-d2">
+          <div class="skill-row-top">
+            <span class="skill-row-name">POWER BI</span>
+            <span class="skill-row-pct">92%</span>
+          </div>
+          <span class="skill-row-desc">Dashboards interactivos, KPIs y reportes ejecutivos para toma de decisiones.</span>
+          <div class="bar-track"><div class="bar-fill" data-fill="92"></div></div>
+        </div>
+        <div class="skill-row anim anim-d3">
+          <div class="skill-row-top">
+            <span class="skill-row-name">EXCEL AVANZADO</span>
+            <span class="skill-row-pct">95%</span>
+          </div>
+          <span class="skill-row-desc">Tablas dinámicas, fórmulas complejas, macros VBA y análisis estadístico.</span>
+          <div class="bar-track"><div class="bar-fill" data-fill="95"></div></div>
+        </div>
+        <div class="skill-row anim anim-d3">
+          <div class="skill-row-top">
+            <span class="skill-row-name">SQL</span>
+            <span class="skill-row-pct">88%</span>
+          </div>
+          <span class="skill-row-desc">Consultas avanzadas, modelado relacional y optimización de bases de datos.</span>
+          <div class="bar-track"><div class="bar-fill" data-fill="88"></div></div>
+        </div>
+        <div class="skill-row anim anim-d4">
+          <div class="skill-row-top">
+            <span class="skill-row-name">PYTHON</span>
+            <span class="skill-row-pct">80%</span>
+          </div>
+          <span class="skill-row-desc">Análisis con Pandas, visualizaciones con Matplotlib y automatización ETL.</span>
+          <div class="bar-track"><div class="bar-fill" data-fill="80"></div></div>
+        </div>
+        <div class="skill-row anim anim-d4">
+          <div class="skill-row-top">
+            <span class="skill-row-name">R</span>
+            <span class="skill-row-pct">70%</span>
+          </div>
+          <span class="skill-row-desc">Análisis Estadisticos.</span>
+          <div class="bar-track"><div class="bar-fill" data-fill="70"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════
+     PAGE: PROYECTOS
+══════════════════════ -->
+<section id="page-proyectos" class="page">
+  <div class="projects-layout">
+    <div class="projects-header">
+      <div>
+        <p class="section-eyebrow anim anim-d1">Mi trabajo</p>
+        <h2 class="section-title-big anim anim-d2">PROYECTOS POR<br><span style="color:var(--accent)">HERRAMIENTA</span></h2>
+      </div>
+      <p class="projects-sub anim anim-d3">Selecciona una herramienta para explorar los proyectos desarrollados con ella.</p>
+    </div>
+
+    <div class="tools-grid">
+      <a class="tool-card anim anim-d2" href="https://drive.google.com/drive/folders/1oJNWwwTQycbwteSF3IyFZJRoHcYB_Vvc?usp=drive_link" target="_blank">
+        <div class="tool-card-number">01 — VISUALIZACIÓN</div>
+        <div class="tool-icon-box">📊</div>
+        <div class="tool-card-name">POWER BI</div>
+        <div class="tool-card-desc">Dashboards interactivos, KPIs y reportes ejecutivos de ventas, RRHH y operaciones.</div>
+        <div class="tool-card-cta">Ver carpeta <span class="tool-arrow-icon">→</span></div>
+      </a>
+
+      <a class="tool-card anim anim-d3" href="https://github.com/Wyena2111" target="_blank">
+        <div class="tool-card-number">02 — BASE DE DATOS</div>
+        <div class="tool-icon-box">🗄️</div>
+        <div class="tool-card-name">SQL</div>
+        <div class="tool-card-desc">Consultas avanzadas, modelado relacional y scripts de extracción y transformación.</div>
+        <div class="tool-card-cta">Ver carpeta <span class="tool-arrow-icon">→</span></div>
+      </a>
+
+      <a class="tool-card anim anim-d4" href="https://drive.google.com/drive/folders/1LP7QlxjJnP1UJ_h2Yon_Zx_9lM8zHY_c?usp=sharing" target="_blank">
+        <div class="tool-card-number">03 — ANÁLISIS</div>
+        <div class="tool-icon-box">🐍</div>
+        <div class="tool-card-name">PYTHON</div>
+        <div class="tool-card-desc">Scripts ETL, limpieza de datos con Pandas y visualizaciones con Matplotlib.</div>
+        <div class="tool-card-cta">Ver carpeta <span class="tool-arrow-icon">→</span></div>
+      </a>
+
+      <a class="tool-card anim anim-d2" href="https://github.com/Wyena2111" target="_blank">
+        <div class="tool-card-number">04 — HOJAS DE CÁLCULO</div>
+        <div class="tool-icon-box">📗</div>
+        <div class="tool-card-name">EXCEL</div>
+        <div class="tool-card-desc">Tablas dinámicas, fórmulas avanzadas, macros VBA y modelos de análisis estadístico.</div>
+        <div class="tool-card-cta">Ver carpeta <span class="tool-arrow-icon">→</span></div>
+      </a>
+
+      <a class="tool-card wide anim anim-d3" href="https://github.com/Wyena2111" target="_blank">
+        <div class="tool-icon-box">🔵</div>
+        <div style="flex:1">
+          <div class="tool-card-number">05 — ESTADÍSTICA</div>
+          <div class="tool-card-name">R</div>
+          <div class="tool-card-desc">Análisis estadístico, visualizaciones con ggplot2 y modelos predictivos para ciencia de datos.</div>
+          <div class="tool-card-cta">Ver carpeta <span class="tool-arrow-icon">→</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════
+     PAGE: CONTACTOS
+══════════════════════ -->
+<section id="page-contactos" class="page">
+  <div class="contact-layout">
+    <div class="contact-left">
+      <p class="contact-eyebrow anim anim-d1">¿Tienes una vacante?</p>
+      <h2 class="contact-big-title anim anim-d2">¿ENCAJO EN<br>TU <span>BÚSQUEDA?</span></h2>
+      <p class="contact-desc anim anim-d3">
+        Disponible para proyectos freelance, consultoría BI o posiciones full-time. No dudes en escribirme.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:wilveryenagarcia@gmail.com" class="contact-link anim anim-d3">
+          <div class="contact-link-icon">📩</div>
+          <div class="contact-link-info">
+            <div class="contact-link-label">Email</div>
+            <div class="contact-link-value">wilveryenagarcia@gmail.com</div>
+          </div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/wilver-m-yena-garcia-9350a22a8" class="contact-link anim anim-d4" target="_blank">
+          <div class="contact-link-icon">💼</div>
+          <div class="contact-link-info">
+            <div class="contact-link-label">LinkedIn</div>
+            <div class="contact-link-value">wilver-m-yena-garcia</div>
+          </div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+
+        <a href="https://github.com/Wyena2111" class="contact-link anim anim-d5" target="_blank">
+          <div class="contact-link-icon">👾</div>
+          <div class="contact-link-info">
+            <div class="contact-link-label">GitHub</div>
+            <div class="contact-link-value">github.com/Wyena2111</div>
+          </div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-right anim anim-d4">
+      <div class="avail-card">
+        <h3>DISPONIBILIDAD</h3>
+        <p>Actualmente disponible para nuevas oportunidades. Tiempo de respuesta habitual: menos de 24 horas.</p>
+        <div class="avail-tags">
+          <span class="avail-tag">Freelance</span>
+          <span class="avail-tag">Full-time</span>
+          <span class="avail-tag">Consultoría BI</span>
+          <span class="avail-tag">Remoto</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOAST -->
+<div class="toast" id="toast">¡Copiado! 🎉</div>
+
+<script src="Main.js"></script>
+</body>
+</html>
